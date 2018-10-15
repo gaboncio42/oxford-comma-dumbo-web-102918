@@ -6,5 +6,6 @@ def oxford_comma(array)
     two_elements = array.join(" and ")
     return two_elements
   else array length >= 3
+    more_than_two = 
   end
 end
