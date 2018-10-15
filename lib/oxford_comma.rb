@@ -6,10 +6,8 @@ def oxford_comma(array)
     two_elements = array.join(" and ")
     return two_elements
   else array.length >= 3
-    last = "dragon fruits"
     array.insert(-2, "and")
     array.pop
     more_than_two = array.join(", ")
-    return "#{more_than_two} #{last}"
   end
 end
