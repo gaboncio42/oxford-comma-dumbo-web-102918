@@ -8,7 +8,7 @@ def oxford_comma(array)
   else array.length >= 3
     array.insert(-2, "and")
     array.pop
-    more_than_two.conca
+    more_than_two.concat()
     more_than_two = array.join(", ")
   end
 end
