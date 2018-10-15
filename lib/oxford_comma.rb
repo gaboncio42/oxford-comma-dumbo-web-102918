@@ -9,7 +9,7 @@ def oxford_comma(array)
     last_fruit = "#{array.[-1]"
     array.insert(-2, "and")
     array.pop
-    
+    array.push(last_fruit)
     more_than_two = array.join(", ")
   end
 end
